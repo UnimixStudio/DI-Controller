@@ -6,6 +6,6 @@ namespace DIController.Code
 	{
 		private const string Vertical = "Vertical";
 		private const string Horizontal = "Horizontal";
-		public Vector2 Movement => new Vector2(Input.GetAxis(Horizontal), Input.GetAxis(Vertical));
+		public Vector2 Movement => new(Input.GetAxis(Horizontal), Input.GetAxis(Vertical));
 	}
 }
